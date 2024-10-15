@@ -1,0 +1,65 @@
+body {
+    background-color: #f4f4f9;
+}
+
+/* Navbar */
+.navbar-brand, .navbar-nav .nav-link {
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* Tombol edit, hapus, dan simpan */
+.btn-hapus {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-simpan {
+    background-color: #007bff;
+    color: white;
+}
+
+.cardShow {
+    min-height: 280px;
+}
+
+.cardEdit {
+    min-height: 280px;
+}
+
+.btn-tambah {
+    margin-top: 15px;
+    background-color: #28a745;
+    color: white;
+}
+
+/* Hover effects */
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* Dynamic card colors */
+.card-color-1 { background-color: #ffdddd; }
+.card-color-2 { background-color: #ddffdd; }
+.card-color-3 { background-color: #ddddff; }
+.card-color-4 { background-color: #ffddff; }
+.card-color-5 { background-color: #ffffdd; }
+
+/* Warna teks yang kontras di dalam card */
+.card-header, .card-body .list-group-item {
+    color: #333; /* Warna teks yang cukup gelap agar kontras dengan card */
+}
+
+.cardEdit .list-group-item {
+    cursor: pointer;
+}
+
+/* CSS untuk menyembunyikan halaman */
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
